@@ -11,6 +11,7 @@ defmodule Myfoo do
     "Greetings #{name}! #{extra_greeting}"
   end
 
-  def do_nothing do
+  def process_name(name, fun) do
+    fun.(name)
   end
 end
