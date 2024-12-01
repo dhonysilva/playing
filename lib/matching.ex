@@ -38,4 +38,9 @@ defmodule Matching do
       _other -> "Nothing to do"
     end
   end
+
+  def exercise_one do
+    %{amount: value} = %{name: "Your Customer, Inc", amount: 142}
+    value
+  end
 end
