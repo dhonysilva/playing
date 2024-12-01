@@ -28,4 +28,14 @@ defmodule Matching do
       _other -> {:error, "Invalid data"}
     end
   end
+
+  def find_user do
+    user = %{id: 1, name: "John", email: "john@example.com", active: true}
+    function_call_result = {:ok, user}
+
+    case function_call_result do
+      {:ok, %{email: email}} -> "Sending email to: #{email}"
+      _other -> "Nothing to do"
+    end
+  end
 end
