@@ -1,4 +1,4 @@
-defmodule Myfoo do
+defmodule MyFoo do
   def foo do
     "Hello!"
   end
@@ -9,6 +9,10 @@ defmodule Myfoo do
 
   def greeting(name, extra_greeting) do
     "Greetings #{name}! #{extra_greeting}"
+  end
+
+  def greeting_with_compliment(name, compliment \\ "You look nice today!") do
+    "Greetings #{name}! #{compliment}"
   end
 
   def process_name(name, fun) do
