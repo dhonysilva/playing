@@ -1,21 +1,9 @@
 # Playing
 
-**TODO: Add description**
+## Description
 
-## Installation
+Notes and exercises taken during the ThinkingElixir [Pattern Matching](https://thinkingelixir.com/available-courses/pattern-matching/) amazing course.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `playing` to your list of dependencies in `mix.exs`:
+This is a free and outstading course and I came here every time I heve some doubt with Pattern Matching or I need to refine some specific topics.
 
-```elixir
-def deps do
-  [
-    {:playing, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/playing>.
-
+For those who are trying Elixir for the first time, I recommend this course.
