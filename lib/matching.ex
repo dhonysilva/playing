@@ -43,4 +43,9 @@ defmodule Matching do
     %{amount: value} = %{name: "Your Customer, Inc", amount: 142}
     value
   end
+
+  def exercise_two do
+    %{"name" => name} = %{"name" => "Your Customer, Inc", "amount" => 142}
+    name
+  end
 end
