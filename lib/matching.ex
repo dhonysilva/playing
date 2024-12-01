@@ -39,6 +39,7 @@ defmodule Matching do
     end
   end
 
+  # Maps
   def exercise_one do
     %{amount: value} = %{name: "Your Customer, Inc", amount: 142}
     value
@@ -52,5 +53,16 @@ defmodule Matching do
   def exercise_three do
     %{"name" => _name, "amount" => amount} = %{"name" => "Your Customer, Inc", "amount" => 142}
     amount
+  end
+
+  # Tuples
+  def exercise_tuple_one do
+    {:ok, answer} = {:ok, 1500}
+    answer
+  end
+
+  def exercise_tuple_two do
+    {_year, month, _day} = {2020, 2, 14}
+    month
   end
 end
