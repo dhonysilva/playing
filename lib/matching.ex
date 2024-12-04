@@ -65,4 +65,13 @@ defmodule Matching do
     {_year, month, _day} = {2020, 2, 14}
     month
   end
+
+  # Lists
+  def exercise_list_one do
+    [head | tail] = [1, 2, 3]
+  end
+
+  def exercise_list_three do
+    [a, b | _rest] = [1, 2, 3]
+  end
 end
