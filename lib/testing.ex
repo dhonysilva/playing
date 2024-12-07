@@ -11,4 +11,20 @@ defmodule Testing do
     # IO.inspect(params)
     "Send an email to #{email}}"
   end
+
+  def to_string(value) when is_binary(value) do
+    value
+  end
+
+  def to_string(value) when is_integer(value) do
+    Integer.to_string(value)
+  end
+
+  def to_string(value) when is_atom(value) do
+    Atom.to_string(value)
+  end
+
+  def to_string(value) when is_float(value) do
+    Float.to_string(value)
+  end
 end
